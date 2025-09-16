@@ -263,7 +263,7 @@ gridSearch.fit(X_trainS, y_train)
 
 print('Best parameters found: ', gridSearch.best_params_)
 print('Best cross-validation accuracy: {:.2f}%'.format(gridSearch.best_score_ * 100))
-```
+
 
 ```{python}
 #| label: PlotHyperTuning
@@ -303,3 +303,5 @@ In conclusion, this analysis provides insights into the diabetes dataset, identi
 -   Further Hyperparameter Tuning
 
 -   Interpretability Analysis
+
+##Vannesa
